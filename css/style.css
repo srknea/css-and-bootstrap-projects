@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.top-bar{
+    background-color: #3d5467;
+    color: #da4167;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    font-size: 3rem;
+    padding: 1rem;
+    text-transform: uppercase; /*uppercase letter*/
+    flex-grow: 1;
+}
+
+.menu{
+    flex-grow: 3;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li{
+    flex-grow: 1;
+}
+
+.menu ul li a{
+    font-size: 1.2rem;
+    color: inherit;
+    text-decoration: none; /*removes the underline*/
+}
+
+
