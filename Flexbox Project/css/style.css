@@ -39,3 +39,19 @@
 }
 
 
+@media all and (max-width:600px){
+    .top-bar{
+        flex-direction: column;
+
+        text-align: center;
+    }
+    .menu ul{
+        flex-direction: column;
+
+        margin-top: 1rem;
+    }
+    .menu ul li{
+        flex-direction: column;
+        padding: 5px;
+    }
+}
